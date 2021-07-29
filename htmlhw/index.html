@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+        }
+        div,img{
+            width: 100px;
+            height: 100px;
+        }
+        div{
+            background-color: red;
+        }
+        #tableInfo{
+            width: 150px; 
+            height: 200px; 
+            background-color: red; 
+        }
+        #tableInfo thead,#tableInfo tbody{
+            display: block;
+            width: 85%; 
+            height: 70px;
+            margin: 10px auto; 
+            padding-top: 10px; 
+            background-color: blue;
+        }
+        #tableInfo tbody{
+            background-color: green;
+        }
+        #tableInfo tr,#tableInfo th,#tableInfo td{
+            display: block;
+            width: 85%;
+            height: 70%; 
+            margin: auto; 
+            background-color: yellow;
+        }
+        #tableInfo tr{
+            padding-top: 10px;
+        }
+        #tableInfo th{
+            background-color: purple;
+        }
+        #tableInfo td{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Tag name</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>p</td>
+                <td>Paragraph</td>
+                <td><p>paragraph text</p></td>
+            </tr>
+            <tr>
+                <td>h1 - h6</td>
+                <td>Defines HTML heading in 6 sizes</td>
+                <td>
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </td>
+            </tr>
+            <tr>
+                <td>i</td>
+                <td>Makes the front style italic</td>
+                <td><i>italic text </i></td>
+            </tr>
+            <tr>
+                <td>span</td>
+                <td>Tag is an inline container used to mark up a part of a text, or a part of a document</td>
+                <td><span>span text</span></td>
+            </tr>
+            <tr>
+                <td>strong</td>
+                <td>Styling element makes the front style strong</td>
+                <td><strong>strong text</strong></td>
+            </tr>
+            <tr>
+                <td>em</td>
+                <td>Makes the front style italic</td>
+                <td><em>em text</em></td>
+            </tr>
+            <tr>
+                <td>div</td>
+                <td>These sections are very useful for grouping elements in your HTML together.</td>
+                <td><div>DIV element</div></td>
+            </tr>
+            <tr>
+                <td>u</td>
+                <td>The content inside is typically displayed with an underline</td>
+                <td><u>underline text</u></td>
+            </tr>
+            <tr>
+                <td>br</td>
+                <td>Line breaks</td>
+                <td>text<br>text</td>
+            </tr>
+            <tr>
+                <td>ul</td>
+                <td>Unordered list element</td>
+                <td>
+                    <ul>
+                        <li>list ul 1</li>
+                        <li>list ul 2</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>ol</td>
+                <td>Ordered list element</td>
+                <td>
+                    <ol>
+                        <li>list ol 1</li>
+                        <li>list ol 2</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>li</td>
+                <td>Defines a list item</td>
+                <td>
+                    <ul><li style="background-color: yellow;">list item</li></ul>
+                    <ol><li style="background-color: yellow;">list item</li></ol>
+                </td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td>Embed an image in an HTML page</td>
+                <td><img src="pictures/sun.jpg" alt="Sun"></td>
+            </tr>
+            <tr>
+                <td>video</td>
+                <td>Embed an video in an HTML page</td>
+                <td><video src="videos/suns.mp4" width="150px" controls></video></td>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>Defines an HTML table <strong><mark>RED</mark></strong></td>
+                <td rowspan="6">
+                    <table id="tableInfo">
+                        <thead><tr><th></th></tr></thead>
+                        <tbody><tr><td></td></tr></tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>thead</td>
+                <td>To group header content in an HTML table <strong><mark>BLUE</mark></strong></td>
+            </tr>
+            <tr>
+                <td>tbody</td>
+                <td>To group the body content in an HTML table <strong><mark>GREEN</mark></strong></td>
+            </tr>
+            <tr>
+                <td>tr</td>
+                <td>Defines a row in an HTML table <strong><mark>YELLOW</mark></strong></td>
+            </tr>
+            <tr>
+                <td>th</td>
+                <td>Defines a header cell in an HTML table <strong><mark>PURPLE</mark></strong></td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>Defines a standard data cell in an HTML table <strong><mark>PINK</mark></strong></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
