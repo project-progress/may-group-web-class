@@ -1,6 +1,5 @@
 # may-group-web-class
 
-### Name: Tony Stark
-### Age: 48
-### Bio: What to say? I am Iron Man
-### Contacts: ironman@email.com
+### Name: Gor davtyan
+### Age: 24
+### Contacts: gor_davtyan_2021list.ru
