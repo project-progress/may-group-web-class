@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Novell Services Login</h1>
+    <form action="">
+        <label for="username">Userrname: </label>
+        <input type="text" name="username" id="username"><br><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password"><br><br>
+        <label for="city">City of <br> Emploment: </label>
+        <input type="text" name="City of Emploment" id="city"><br><br>
+        <label for="webServer">Web Server: </label>
+        <select name="web Server" id="webServer" >
+            <option value="-- Choose a server --">-- Choose a server --</option>
+            <option value="server1">Server 1</option>
+            <option value="server2">Server 2</option>
+            <option value="server3">Server 3</option>
+        </select><br>
+
+        <p>Please specify your role</p>
+        <input type="radio" name="admin" id="admin">
+        <label for="admin"> Admin</label><br>
+        <input type="radio" name="engineer" id="engineer">
+        <label for="engineer"> Engineer</label><br>
+        <input type="radio" name="manager" id="manager"> 
+        <label for="manager"> Manager</label><br>
+        <input type="radio" name="guest" id="guest"> 
+        <label for="guest">Guest</label><br> <br>
+
+        <p>Single Sign-on <br> to the following: </p>
+        <input type="checkbox" name="mail" id="mail">
+        <label for="mail"> Mail</label><br>
+        <input type="checkbox" name="payroll" id="payroll">
+        <label for="payroll"> Payroll</label><br>
+        <input type="checkbox" name="Self Service" id="selfService"> 
+        <label for="selfService">Self-service</label><br><br>
+        <input type="button" value="Login">
+        <input type="button" value="Reset">
+    </form>
+</body>
+</html>
