@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Html Homework 2</title>
+</head>
+<body>
+   <h2>Novell Services Login</h2>
+<form action="/example.html" method="POST">
+    <table>
+        <tr>
+   <td> <label for="uname">Username:</label></td>
+  <td>  <input type="text" name="first-text-field"> </td>
+    </tr>
+    <tr>
+  <td>  <label for="Pword">Password:</label> </td>
+   <td> <input type="text" name="second-text-field"> </td>
+   
+    </tr>
+    <tr>
+        <td>   <label for="COE">City of <br>Employment:</label> </td>
+            <td>    <input type="text" name="third-text-field"> </td>
+</tr> 
+</form>
+        <form action="">
+            <tr>
+        <td> <label for="WS">Web server</label> </td>
+           <td>  <select name="WS"> 
+          <option value="default">-Choose a server-</option>
+          <option value="AHS">Apache HTTP Server</option>
+          <option value="IIS">Internet Information Services (IIS)</option>
+          <option value="L">Lighttpd</option>
+          <option value="SJS">Sun Java System</option>
+          <option value="JigS">Jigsaw Server</option>
+          <option value="LSS">LiteSpeed server</option>
+          <option value="NJS">Node. js</option>
+            </select>
+        </td>
+            </tr>
+        </form>
+    <form action="">
+        <tr>
+            <td rowspan = "4">Please secify<br>your role:</td>
+            <td>
+                <input type = "radio" name = "role" value = "admin">
+                <label for = "role">Admin</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type = "radio" name = "role" value = "engineer">
+                <label for = "role">Engineer</label>
+            </td>
+        </tr>
+        <tr>
+            <td> <input type = "radio"  name = "role" value = "manager">
+                <label for = "role">Manager</label></td>
+        </tr>
+        <tr>
+            <td>   <input type = "radio"  name = "role" value = "Guest">
+                <label for = "role">Guest</label>  </td>
+        </tr>
+       <tr>
+                <td rowspan = "3"><p>Single Sign-on<br>to the folowing: </p></td>
+                <td> <input type = "checkbox" value = "mail">
+                    <label for = "checkbox">Mail</label> </td>
+            </tr>
+            <tr>
+                <td><input type = "checkbox" value = "payroll">
+                    <label for = "checkbox">Payroll</label> </td>
+            </tr>
+            <tr>
+                <td>       <input type = "checkbox"  value = "selfService">
+                    <label for = "checkbox">Self-service</label>  </td>
+            </tr>
+            <tr>
+                <td colspan = "3">
+                    <div style = "margin: 0 auto; width: 105px;">
+                        <input type="button" value="Login">
+                        <input type="reset" value="Reset">
+                    </div>
+                </td>
+            </tr>
+        </table>        
+    </form>
+</body>
+</html>
