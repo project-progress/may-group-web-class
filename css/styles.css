@@ -1,0 +1,54 @@
+body {
+  /* background-color: teal; */
+  /* background-image: url(../pictures/web101-image_brownbear.jpeg); */
+  /* background-position: 10px;
+  font-family: ui-monospace;
+  font-style: oblique;
+  font-size: 40px; */
+}
+/* h3 {
+  color: red;
+} */
+
+h1.column {
+  color: yellow;
+}
+
+h2#first-item {
+  color: green;
+}
+
+h1, h2 {
+  color: red;
+}
+
+.column {
+  color: blueviolet;
+  text-align: center;
+}
+
+.h3-style {
+  font-size: 50px;
+}
+
+.h3-style.column {
+  font-family: ui-monospace;
+  font-style: oblique;
+}
+
+.heading-1-section {
+  background: red;
+  border: 9px;
+  border-style: dotted;
+  border-color: yellow;
+  width: 160px;
+  height: 80px;
+}
+
+.positioned {
+  position: absolute;
+  top: 240px;
+  bottom: 60px;
+  left: 30px;
+  right: 100px;
+}
