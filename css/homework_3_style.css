@@ -1,0 +1,143 @@
+body {
+    background-image: url("https://www.freevector.com/uploads/vector/preview/8186/FreeVector-Blue-Background-Graphics.jpg");
+    width: 470px;
+    height: 700px;
+}
+
+.big_1 {
+    position: relative;
+    left: 300px;
+    top: 15px;
+    color: white;
+    font-size: 20px;
+    background-color: #ffffff00;
+    border: none;
+    cursor: pointer;
+}
+
+.big_1:hover {
+    color: gray;
+}
+
+.heading_section {
+    position: relative;
+    left: 850px;
+    top: -15px;
+}
+
+.big_2 {
+    color: white;
+    font-size: 20px;
+    background-color: #ffffff00;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.big_2:hover {
+    color: gray;
+    border-color: gray;
+}
+
+.small {
+    color: white;
+    font-size: 10px;
+    background-color: #ffffff00;
+    border: none;
+    cursor: pointer;
+}
+
+.small:hover {
+    color: gray;
+}
+
+.section_1 {
+    position: relative;
+    left: 300px;
+    top: 80px;
+    font-size: 25px;
+    width: 530px;
+}
+
+.heading_1{
+    color: white;
+    font-weight: 500;
+}
+.text {
+    color: white;
+}
+
+.butt_1{
+    background-color: forestgreen;
+    color: white;
+    position: relative;
+    border-radius: 50%;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.butt_1:hover {
+    color: gray;
+}
+
+.url_1 {
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.url_1:hover {
+    color: gray;
+}
+
+.url_2 {
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.url_2:hover {
+    color: gray;
+}
+
+.section_2 {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/276/463/small_2x/White_Background.jpg");
+    position: relative;
+    left: 880px;
+    top: -280px;
+    width: 320px;
+    height: 360px;
+}
+
+.heading_2 {
+    font-size: 41px;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    top: 30px;
+}
+
+.searching {
+    background-color: lightgray;
+    border: none;
+    height: 35px;
+    width: 230px;
+}
+
+.selection {
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 234px;
+}
+
+.butt_2 {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 90px 10px 90px;
+    border: none;
+    cursor: pointer;
+}
+.butt_2:hover {
+    color: gray;
+}
