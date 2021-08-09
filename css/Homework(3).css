@@ -1,0 +1,136 @@
+body {
+    width: 80vw;
+    height: 96vh;
+    background-image: linear-gradient(to top right ,#5f5def 25% ,#67cee9 75%)
+}
+.Thead
+{
+    margin-top: 20px;
+}
+.LandingElementstyles
+{
+    color: white;
+    text-decoration-line: none;
+    position: relative;
+    right: -250px;
+}
+.rowstyles
+{
+    color: white;
+    text-decoration-line: none;
+    margin-right: 10px;
+    position: relative;
+    right: -650px;
+    font-size: 16px;
+}
+.GetStartedElementStyles
+{
+    outline: solid;
+    outline-color: white;
+    color: white;
+    outline-width: thin;
+    text-decoration-line: none;
+    position: relative;
+    right: -670px;
+    font-size: 16px;
+    outline-offset: 6px
+}
+div#FirstBlock {
+    color: white;
+    position: relative;
+    top: 150px;
+    right: -250px;
+}
+div#Second\ Block {
+    color: black;
+    position: relative;
+    right: -780px;
+    bottom: 120px;
+    border: white;
+    border-block: unset;
+    background-color: white;
+    border-radius: 3px;
+    height: 300px;
+    width: 320px;
+}
+h2 {
+position: relative;
+    right: -58px;
+    top: 30px;
+}
+.TypeTextClass
+{
+    position: relative;
+    right: -32px;
+    bottom: -20px;
+    color: #0f0000;
+    width: 230px;
+    height: 26px;
+    margin: 3px;
+    background-color: #f1f1f1;
+    border: thin;
+}
+select#Type
+{
+    position: relative;
+    right: -35px;
+    bottom: -23px;
+    color: #0f0000;
+    width: 234px;
+    height: 30px;  
+    background-color: #f1f1f1;
+    border: thin;
+}
+input#RegisterStyles
+{
+    color: white;
+    position: relative;
+    right: -35px;
+    bottom: -29px;
+    background: #3a82e3;
+    width: 234px;
+    height: 34px;
+    border-radius: 20px;
+    border: solid;
+}
+p#SeePricingStyles
+{
+    background-color: springgreen;
+    width: 125px;
+    height: 29px;
+    text-align-last: center;
+    border-radius: 20px;
+}
+a#TextStyles
+{
+    text-decoration: auto;
+    font-size: 13px;
+    color: white;
+    position: relative;
+    bottom: -4px;
+
+}
+h1,h2
+{
+    font-weight: unset;
+}
+a
+{
+    text-decoration: unset;
+    color: #5f5ddd
+}
+h1
+{
+    font-size: 35px;
+}
+::placeholder
+{
+    font-size: 12px;
+    position: relative;
+    right: -10px;
+}
+.OptionStyles
+{
+    position:relative;
+    right: -10px;
+}
