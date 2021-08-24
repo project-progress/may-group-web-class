@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../css/Calculator.css" type="text/css">
+    <script type="text/javascript" src="../js/Calculator.js"></script>
+</head>
+<body>
+    
+    <form id="Calculator" name="Calculator" class="Calculator">
+        <div class="calculator__display">
+            <input type="text" id="DisplayBar" name="DisplayBar" disabled="disabled" readonly="readonly" value="0"> </input>
+        </div>
+        <div class="Calculator__key">
+        <div>
+            <input type="button" id="Seven" name="Seven" class="digit" value="7" tabindex="1" title="Seven"> </input>
+            <input type="button" id="Eight" name="Eight" class="digit" value="8" tabindex="2" title="Eight"> </input>
+            <input type="button" id="Nine" name="Nine" class="digit" value="9" tabindex="3" title="Nine"> </input>
+            <input type="button" id="Division" name="Division" class="Operator" value="&#247;" tabindex="4" title="Divison"> </input>
+        </div>
+        <div>
+            <input type="button" id="Four" name="Four" class="digit" value="4" tabindex="5" title="Four"> </input>
+            <input type="button" id="Five" name="Five" class="digit" value="5" tabindex="6" title="Five"> </input>
+            <input type="button" id="Six" name="Six" class="digit" value="6" tabindex="7" title="Six"> </input>
+            <input type="button" id="Multiplication" name="Multiplication" class="Operator"  value="&#215;" tabindex="8" title="Multiplication"> </input>
+        </div>
+        <div>
+            <input type="button" id="One" name="One" class="digit" value="1" tabindex="9" title="One"> </input>
+            <input type="button" id="Two" name="Two" class="digit" value="2" tabindex="10" title="Two"> </input>
+            <input type="button" id="Three" name="Three" class="digit" value="3" tabindex="11" title="Three"> </input>
+            <input type="button" id="Subtraction" name="Subtraction" class="Operator"  value="&#8722;" tabindex="12" title="Subtraction"> </input>
+
+        </div>
+        <div>
+            <input type="button" id="Zero" name="Zero" class="digit" value="0" tabindex="13" title="Zero"> </input>
+            <input type="button" id="DecimalPoint" name="DecimalPoint"  value="." tabindex="14" title="DecimalPoint"> </input>
+            <input type="button" id="Result" name="Result" class="Operator harder" value="=" tabindex="15" title="Result"> </input>
+            <input type="button" id="Addition" name="Addition" class="Operator"  value="&#43;" tabindex="16" title="Addition"> </input>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
