@@ -1,5 +1,4 @@
-let arr = [1,2,3,4,5,6,7,8];
-
+let arr = [1,2,3,4,5,6];
 Array.prototype.newMap = function(callback){
     let element,index;
     let arrName = this;
