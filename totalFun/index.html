@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Total Function</title>
+    </head>
+    <body>
+    <script>
+        function totalFun(n){
+            if(n <= 999 && n >= 100){
+                let sum = 0;
+                let arr = Array.from(String(n), Number);
+                for(let i = 0; i < arr.length; i++){
+                    sum += arr[i];
+                }
+                console.log(sum);
+            }else{
+                alert("Enter a three-digit number")
+            }
+        }
+        totalFun(564);
+    </script>
+    </body>
+</html>
