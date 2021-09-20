@@ -1,0 +1,11 @@
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr,th,td{
+    width: 80px;
+    height: 40px;
+}
+td{
+    padding: 0 5px;
+}
